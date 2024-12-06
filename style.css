@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    background-color: #3a6df0;
+}
+.box1{
+    margin-top: -50px;
+}
+#btn:hover{
+    background-color: white;
+    color: blue;
+}
+@media(max-width:666px){
+    .box1{
+        margin-top: 50px;
+    }
+}
+.back{
+    background-size:cover ;
+    height:300px;
+    width: 100%;
+    background-image: url("https://images6.alphacoders.com/885/885213.jpg");
+}
+@media(max-width:666px){
+    .back{
+        height: auto;
+    }
+}
+#numbox{
+    height: 100%;
+    width: 100%;
+    float:left;
+    background-color: rgba(27, 142, 208, 0.5);
+}
+#cardbox{
+    background-color: #3a6df0;
+}
+#cardbox:hover{
+    background-color: #1f48b1;
+}
+#cardbody{
+    background-image: url('https://swasthyahospital.com/img/department/department3.jpg');
+    background-size: 100% 100%;
+    height: 230px;
+    width: 356px;
+    overflow: hidden;
+}
+.hide{
+    height: 100%;
+    width: 100%;
+    float: left;
+    background-color: rgba(65, 90, 250, 0.7);
+    position:relative;
+    top: 230px;
+    transition-duration:0.7s;
+}
+#cardbody:hover .hide{
+    top: 0px;
+}
+#btnhover{
+    position: relative;
+    transition-duration:1s;
+    top: 20px;
+}
+.s1{
+    background-image: url('https://swasthyahospital.com/img/figure/figure2.jpg');
+    background-size:cover;
+    height:300px;
+}
+#ho{
+    height:100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-image: url("https://swasthyahospital.com/img/gallery/cashless.jpg");
+    transition-duration: 0.5s;
+
+}
+.hover12{
+    height: 100%;
+    width: 100%;
+    background-color: #1f48b1;
+    padding-top: 30px;
+    display: none;
+    transition-duration: 0.5s;
+}
+#ho:hover .hover12{
+    background-color:rgba(7, 7, 250, 0.8);
+    display: block;
+}
+.table tr td{
+    padding:12px 0px 12px 0px ;
+}
+
